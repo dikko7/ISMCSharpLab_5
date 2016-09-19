@@ -17,6 +17,7 @@ namespace zad1
             double q = 2.8 * Math.Sin(x) + Math.Abs(y);
             Console.WriteLine("z = " + z);
             Console.WriteLine("q = " + q);
+            Console.ReadKey();
         }
     }
 }
