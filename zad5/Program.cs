@@ -17,16 +17,16 @@ namespace zad5
             int b = (n / 10) % 10;
 
             int c = n % 10;
-            if ((b!=0) && (n >= 10) && (n <= 999))
+            if ((b != 0) && (n >= 10) && (n <= 999))
             {
                 Console.Write("" + b);
                 Console.Write("" + a);
                 Console.WriteLine("" + c);
-                Console.ReadKey();
             }
             
             else
                 Console.WriteLine("Ошибка: n не отвечает требованиям или число десятков равно нулю !!!");
+            Console.ReadKey();
         }
     }
 }
